@@ -5,3 +5,4 @@ RUN unzip docker_changes.zip
 RUN mv radar-docker_changes radar
 RUN rm docker_changes.zip
 RUN R < /srv/shiny-server/radar/dependencies.R
+COPY shiny-server.conf /etc/shiny-server/shiny-server.conf
