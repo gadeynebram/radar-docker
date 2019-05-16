@@ -1,6 +1,6 @@
 # RadaR on Docker
 
-A docker image to run the [RadaR](https://github.com/ceefluz/radar) project.
+A docker image to run the [RadaR](https://github.com/open-ams/radar) project.
 
 # Run using the following commands
 
