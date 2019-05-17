@@ -1,3 +1,5 @@
+![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/openams/radar.svg)
+
 # RadaR on Docker
 
 A docker image to run the [RadaR](https://github.com/open-ams/radar) project.
