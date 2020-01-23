@@ -9,8 +9,7 @@ A docker image to run the [RadaR](https://github.com/open-ams/radar) project.
 Assuming your working directory is the root of this repository
 
 ```
-docker build -t radar .
-docker run --name=radar -p 3838:3838 --mount source=data,target=/srv/shiny-server/radar/data radar 
+docker run --name=radar -p 3838:3838 --mount type=bind,source="$(pwd)"/data,target=/srv/shiny-server/radar/data openams/radar
 ```
 
 # Data files
